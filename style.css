@@ -1,0 +1,59 @@
+.wrapper{
+    margin: 0 auto;
+    width: 70%;
+}
+table{
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-style: hidden;
+    width: 50%;
+    height: auto;
+}
+caption{
+    caption-side: bottom;
+    margin: 30px 0;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+td{
+    border: 8px solid black;
+    /*padding: 20px 40px;*/
+}
+table tr:nth-child(1){
+    height: 50px;
+}
+table tr:nth-child(2),
+table tr:nth-child(3){
+    height: 135px;
+}
+table tr:nth-child(4),
+table tr:nth-child(5){
+    height: 60px;
+}
+table tr:nth-child(6),
+table tr:nth-child(7){
+    height: 30px;
+}
+.col1{
+    width: 10%;
+}
+.col2,
+.col3 {
+    width: 16%;
+}
+.col4 {
+    width: 27%;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.black{
+    background-color: #1a1a1a;
+}
