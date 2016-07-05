@@ -1,59 +1,71 @@
-.wrapper{
-    margin: 0 auto;
-    width: 70%;
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
 }
-table{
-    margin: 20px auto;
-    border-collapse: collapse;
-    border-style: hidden;
-    width: 50%;
-    height: auto;
-}
-caption{
-    caption-side: bottom;
-    margin: 30px 0;
-    font-size: 20px;
-    font-weight: bold;
 
+table {
+  width: 50%;
+  height: auto;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border-style: hidden;
 }
-td{
-    border: 8px solid black;
-    /*padding: 20px 40px;*/
+
+caption {
+  margin: 30px 0;
+  font-size: 20px;
+  font-weight: bold;
+  caption-side: bottom;
 }
-table tr:nth-child(1){
-    height: 50px;
+
+td {
+  border: 8px solid black;
 }
+
+table tr:nth-child(1) {
+  height: 50px;
+}
+
 table tr:nth-child(2),
-table tr:nth-child(3){
-    height: 135px;
+table tr:nth-child(3) {
+  height: 135px;
 }
+
 table tr:nth-child(4),
-table tr:nth-child(5){
-    height: 60px;
+table tr:nth-child(5) {
+  height: 60px;
 }
+
 table tr:nth-child(6),
-table tr:nth-child(7){
-    height: 30px;
+table tr:nth-child(7) {
+  height: 30px;
 }
-.col1{
-    width: 10%;
+
+.col1 {
+  width: 10%;
 }
+
 .col2,
 .col3 {
-    width: 16%;
+  width: 16%;
 }
+
 .col4 {
-    width: 27%;
+  width: 27%;
 }
-.red{
-    background-color: red;
+
+.red {
+  background-color: red;
 }
-.yellow{
-    background-color: yellow;
+
+.yellow {
+  background-color: yellow;
 }
-.blue{
-    background-color: blue;
+
+.blue {
+  background-color: blue;
 }
-.black{
-    background-color: #1a1a1a;
+
+.black {
+  background-color: #1a1a1a;
 }
